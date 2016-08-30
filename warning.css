@@ -1,0 +1,171 @@
+p.pro {
+	text-align: left;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin-left: 600px;
+	margin-bottom: 0;
+}
+
+div.pros {
+	width: 660px;
+	height: 260px;
+	background-color: #28B463;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 50px;
+	margin: 20px;
+	padding: 20px;
+	transition: background-color 2s;
+
+}
+
+
+div.cons {
+	width: 660px;
+	height: 260px;
+	background-color: #E74C3C;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+div.excitehold {
+	width: 700px;
+	height: 200px;
+	border: solid 2pt black;
+	text-align: left;
+}
+
+div.excite {
+	width: 10px;
+	height: 200px;
+	background-color: #F4D03F;
+	transition: width 2s ease-in-out;
+}
+
+div.excite:hover {
+	width:600px;
+}
+
+div.grid {
+	width: 700px;
+	height: 700px;
+	line-height: 700px;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 150px;
+}
+
+
+div.column {
+	width: 900px;
+}
+
+div.warning1 {
+	width: 1200px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	content: url("sick.jpg");
+	margin-bottom: 20px;
+
+}
+
+div.hide1 {
+	width: 600px;
+	height: 600px;
+	line-height: 600px;
+	position: absolute;
+	left: 700px;
+	top: 100px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	transition: opacity 1.5s ease-out;
+}
+
+div.hide1:hover {
+	opacity: 0;
+}
+
+div.warning2 {
+	width: 1200px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	content: url("sick2.jpg");
+	margin-bottom: 20px;
+
+}
+
+div.hide2 {
+	width: 600px;
+	height: 300px;
+	line-height: 300px;
+	position: absolute;
+	left: 700px;
+	top: 1200px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	transition: opacity 1.5s ease-out;
+}
+
+div.hide2:hover {
+	opacity: 0;
+}
+
+div.warning3 {
+	width: 1200px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	content: url("sick3.jpg");
+	margin-bottom: 20px;
+
+}
+
+div.hide3 {
+	width: 750px;
+	height: 500px;
+	line-height: 500px;
+	position: absolute;
+	left: 800px;
+	top: 1800px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	transition: opacity 1.5s ease-out;
+}
+
+div.hide3:hover {
+	opacity: 0;
+}

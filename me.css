@@ -1,0 +1,57 @@
+div.jed {
+	width: 100%;
+	height: 50vh;
+	line-height: 50vh;
+	font-family: 'Arvo', serif;
+	font-size: 100px;
+	text-align: center;
+	background-color: #af005f;
+	color: white;
+	transition: color 2s, background-color 2s;
+}
+
+div.jed:hover {
+	background-color: white;
+	color: black;
+}
+
+div.about {
+	width: 100%;
+	height: 25vh;	
+	line-height: 25vh;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	text-align: center;
+	background-color: #008B8B;
+	color: white;
+	transition: color 2s, background-color 2s;
+}
+
+div.about:hover {
+	background-color: white;
+	color: black;
+}
+
+div.gridofNine {
+	width: 100%;
+	height: 25vh;
+	line-height: 25vh;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: #2E86C1;
+	color: white;
+	transition: color 2s, background-color 2s;
+
+}
+
+div.gridofNine:hover {
+	background-color: white;
+	color: #F4D03F;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,259 @@
+p.pro {
+	text-align: left;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin-left: 600px;
+	margin-bottom: 0;
+}
+
+
+div.pros {
+	width: 660px;
+	height: 260px;
+	background-color: #28B463;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+	transition: background-color 2s;
+
+}
+
+
+div.cons {
+	width: 660px;
+	height: 260px;
+	background-color: #E74C3C;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+div.excitehold {
+	width: 700px;
+	height: 200px;
+	border: solid 2pt black;
+	text-align: left;
+}
+
+div.excite {
+	width: 10px;
+	height: 200px;
+	background-color: #F4D03F;
+	transition: width 2s, background-color 4s, ease-in-out;
+}
+
+div.excite:hover {
+	width:700px;
+	background-color: red;
+}
+
+div.rapist {
+	height: 800px;
+	content: url("sketchRapist.jpg");
+	margin-top: 20px;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+div.rapist:hover {
+	height: 1500px;
+	transform: scale(1);
+}
+
+div.qr {
+	height: 800px;
+	content: url("rose.jpg");
+	margin-top: 20px;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+div.qr:hover {
+	height: 1500px;
+	transform: scale(1);
+}
+
+div.qr1 {
+	content: url("qr1.jpg");
+	max-width: 60%;
+	max-height: 60%;
+	margin: 20px;
+}
+
+div.qr1:hover {
+	content: url("roseqr1.jpg");
+	max-width: 60%;
+	max-height: 60%;
+
+}
+
+div.qr2 {
+	content: url("qr2.jpg");
+	max-width: 60%;
+	max-height: 60%;
+	margin: 20px;
+}
+
+div.qr2:hover {
+	content: url("roseqr2.jpg");
+	max-width: 60%;
+	max-height: 60%;
+	margin: 20px;
+
+}
+
+div.reddit {
+	content: url("reddit.jpg");
+	width: 600px;
+	transition: width 2s, height 2s, transform 2s;
+
+}
+
+div.reddit:hover {
+	width: 1200px;
+	transform: scale(1);
+}
+
+div.about {
+	width: 600px;
+	height: 600px;
+	line-height: 100px;
+	background-color: #5DADE2;
+	color: white;
+	padding: 50px;
+	padding-top: 50px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+}
+
+div.grid {
+	width: 700px;
+	height: 700px;
+	line-height: 700px;
+	background-color: #5DADE2;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 150px;
+}
+
+img {
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+div.warning1 {
+	width: 1200px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	content: url("sick.jpg");
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.hide1 {
+	width: 600px;
+	height: 600px;
+	line-height: 600px;
+	position: absolute;
+	left: 700px;
+	top: 900px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	transition: opacity 1.5s ease-out;
+}
+
+div.hide1:hover {
+	opacity: 0;
+}
+
+div.warning2 {
+	width: 1200px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	content: url("sick2.jpg");
+	margin-bottom: 20px;
+
+}
+
+div.hide2 {
+	width: 600px;
+	height: 300px;
+	line-height: 300px;
+	position: absolute;
+	left: 700px;
+	top: 1900px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	transition: opacity 1.5s ease-out;
+}
+
+div.hide2:hover {
+	opacity: 0;
+}
+
+div.warning3 {
+	width: 1200px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	content: url("sick3.jpg");
+	margin-bottom: 20px;
+
+}
+
+div.hide3 {
+	width: 750px;
+	height: 500px;
+	line-height: 500px;
+	position: absolute;
+	left: 800px;
+	top: 2500px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	transition: opacity 1.5s ease-out;
+}
+
+div.hide3:hover {
+	opacity: 0;
+}

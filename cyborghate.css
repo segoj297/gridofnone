@@ -1,0 +1,98 @@
+
+p.pro {
+	text-align: left;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin-left: 150px;
+	margin-bottom: 0;
+}
+
+div.excitehold {
+	width: 700px;
+	height: 200px;
+	border: solid 2pt black;
+	text-align: left;
+}
+
+div.excite {
+	width: 10px;
+	height: 200px;
+	background-color: #F4D03F;
+	transition: width 2s ease-in-out;
+}
+
+div.excite:hover {
+	width:350px;
+}
+
+div.pros {
+	width: 660px;
+	height: 260px;
+	line-height: 100px;
+	background-color: #28B463;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+div.cons {
+	width: 660px;
+	height: 260px;
+	line-height: 100px;
+	background-color: #E74C3C;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+div.column {
+	width: 1000px;
+}
+
+div.about {
+	width: 600px;
+	height: 600px;
+	line-height: 100px;
+	background-color: #5DADE2;
+	color: white;
+	padding: 50px;
+	padding-top: 50px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+}
+
+div.grid {
+	width: 700px;
+	height: 700px;
+	line-height: 700px;
+	background-color: #5DADE2;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 150px;
+}
+
+img {
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

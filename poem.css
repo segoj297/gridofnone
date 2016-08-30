@@ -1,0 +1,101 @@
+p.pro {
+	text-align: left;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin-left: 600px;
+	margin-bottom: 0;
+}
+
+
+div.pros {
+	width: 660px;
+	height: 260px;
+	background-color: #28B463;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+	transition: background-color 2s;
+
+}
+
+
+div.cons {
+	width: 660px;
+	height: 260px;
+	background-color: #E74C3C;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+div.excitehold {
+	width: 700px;
+	height: 200px;
+	border: solid 2pt black;
+	text-align: left;
+}
+
+div.excite {
+	width: 10px;
+	height: 200px;
+	background-color: #F4D03F;
+	transition: width 2s, background-color 4s, ease-in-out;
+}
+
+div.excite:hover {
+	width:650px;
+}
+
+div.poem {
+	position: absolute;
+}
+
+div.altar {
+	content: url("altar.jpg");
+	height: 800px;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+div.altar:hover {
+	height: 900px;
+	transform: scale(1);
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div.buffer {
+	height: 100px;
+}
+
+
+div.column {
+	width: 1200px;
+}
+
+div.grid {
+	width: 700px;
+	height: 700px;
+	line-height: 700px;
+	background-color: #5DADE2;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 150px;
+}

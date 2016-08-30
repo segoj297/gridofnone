@@ -1,0 +1,94 @@
+
+p.pro {
+	text-align: left;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin-left: 150px;
+	margin-bottom: 0;
+}
+
+div.excitehold {
+	width: 700px;
+	height: 200px;
+	border: solid 2pt black;
+	text-align: left;
+}
+
+div.excite {
+	width: 10px;
+	height: 200px;
+	background-color: #F4D03F;
+	transition: width 2s ease-in-out;
+}
+
+div.excite:hover {
+	width:700px;
+}
+
+div.pros {
+	width: 660px;
+	height: 260px;
+	background-color: #28B463;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+div.cons {
+	width: 660px;
+	height: 260px;
+	background-color: #E74C3C;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+img {
+	margin: 10px;
+}
+
+div#column {
+	width: 900px;
+}
+
+div#grid {
+	width: 700px;
+	height: 700px;
+	line-height: 700px;
+	background-color: #5DADE2;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arvo', serif;
+	font-size: 150px;
+}
+
+
+div#except {
+	position: absolute;
+	width: 630px;
+	top: 1150px;
+	left: 650px;
+	font-family: 'Arvo', serif;
+	font-size: 60px;
+	text-align: center;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	transform: rotate(-1deg);
+}
+
+
