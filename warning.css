@@ -2,7 +2,7 @@ p.pro {
 	text-align: left;
 	font-family: 'Arvo', serif;
 	font-size: 60px;
-	margin-left: 600px;
+	margin-left: 300px;
 	margin-bottom: 0;
 }
 
@@ -60,7 +60,7 @@ div.grid {
 	width: 700px;
 	height: 700px;
 	line-height: 700px;
-	background-color: black;
+	background-color: #5DADE2;
 	color: white;
 	display: inline-block;
 	text-align: center;

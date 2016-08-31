@@ -2,7 +2,7 @@ p.pro {
 	text-align: left;
 	font-family: 'Arvo', serif;
 	font-size: 60px;
-	margin-left: 600px;
+	margin-left: 300px;
 	margin-bottom: 0;
 }
 
@@ -142,7 +142,7 @@ div.grid {
 	width: 700px;
 	height: 700px;
 	line-height: 700px;
-	background-color: #5DADE2;
+	background-color: black;
 	color: white;
 	display: inline-block;
 	text-align: center;
@@ -178,7 +178,7 @@ div.hide1 {
 	height: 600px;
 	line-height: 600px;
 	position: absolute;
-	left: 700px;
+	left: 300px;
 	top: 900px;
 	background-color: black;
 	opacity: 1;
@@ -210,7 +210,7 @@ div.hide2 {
 	height: 300px;
 	line-height: 300px;
 	position: absolute;
-	left: 700px;
+	left: 400px;
 	top: 1900px;
 	background-color: black;
 	opacity: 1;
@@ -242,7 +242,7 @@ div.hide3 {
 	height: 500px;
 	line-height: 500px;
 	position: absolute;
-	left: 800px;
+	left: 470px;
 	top: 2500px;
 	background-color: black;
 	opacity: 1;

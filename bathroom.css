@@ -3,7 +3,7 @@ p.pro {
 	text-align: left;
 	font-family: 'Arvo', serif;
 	font-size: 60px;
-	margin-left: 150px;
+	margin-left: 280px;
 	margin-bottom: 0;
 }
 
@@ -22,7 +22,7 @@ div.excite {
 }
 
 div.excite:hover {
-	width:700px;
+	width: 550px;
 }
 
 div.pros {
@@ -60,7 +60,6 @@ img {
 }
 
 div#column {
-	width: 900px;
 }
 
 div#grid {
@@ -81,7 +80,7 @@ div#except {
 	position: absolute;
 	width: 630px;
 	top: 1150px;
-	left: 650px;
+	left: 270px;
 	font-family: 'Arvo', serif;
 	font-size: 60px;
 	text-align: center;

@@ -1,5 +1,5 @@
 div.column {
-	width: 1500px;
+	width: 1200px;
 }
 
 div.rose {
@@ -12,7 +12,7 @@ div.rose {
 }
 
 div.rose:hover {
-	height: 1500px;
+	height: 1200px;
 	width: auto;
 }
 
@@ -20,7 +20,7 @@ p.pro {
 	text-align: left;
 	font-family: 'Arvo', serif;
 	font-size: 60px;
-	margin-left: 400px;
+	margin-left: 250px;
 	margin-bottom: 0;
 }
 
@@ -101,5 +101,5 @@ div.excite {
 }
 
 div.excite:hover {
-	width:700px;
+	width:450px;
 }
